@@ -58,7 +58,7 @@ This ensures consistency between training and real-world inference.
 ## 📁 Repository Structure
 
 <p align="center">
-  <img src="image/structure.png" width="600">
+  <img src="images/structure.png" width="600">
 </p>
 
 
