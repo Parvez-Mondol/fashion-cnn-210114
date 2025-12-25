@@ -1,5 +1,67 @@
 # fashion-cnn-210114
 Machine Learning Assignment 
+# 🧠 CNN Image Classification using FashionMNIST (PyTorch)
+
+## 📌 Project Overview
+This project implements a **Convolutional Neural Network (CNN)** using **PyTorch** to classify clothing items from the **FashionMNIST** dataset.  
+In addition to standard benchmarking, the trained model is evaluated on **real-world smartphone images**, demonstrating how deep learning models generalize from curated datasets to practical environments.
+
+The entire workflow is **fully automated and reproducible** using **Google Colab**, requiring **no manual file uploads** during execution.
+
+---
+
+## 📂 Dataset Description
+
+### 1️⃣ Standard Dataset (Benchmark)
+
+- **Name:** FashionMNIST  
+- **Source:** `torchvision.datasets.FashionMNIST`  
+- **Image Resolution:** 28 × 28 pixels  
+- **Color Format:** Grayscale (1 channel)  
+- **Number of Classes:** 10  
+
+#### Class Labels
+
+| Label | Class Name |
+|------|-----------|
+| 0 | T-shirt / Top |
+| 1 | Trouser |
+| 2 | Pullover |
+| 3 | Dress |
+| 4 | Coat |
+| 5 | Sandal |
+| 6 | Shirt |
+| 7 | Sneaker |
+| 8 | Bag |
+| 9 | Ankle Boot |
+
+---
+
+### 2️⃣ Custom Real-World Images (Phone Dataset)
+
+- **Total Images:** 10  
+- **Captured Using:** Smartphone camera  
+- **Objects:** T-shirt, Sneaker, Bag, Trouser, etc.  
+- **Background:** Plain surface to reduce noise  
+- **Storage Location:** `dataset/` directory  
+
+All custom images are:
+- Converted to **grayscale**
+- Resized to **28 × 28 pixels**
+- Normalized using the **same mean and standard deviation** as FashionMNIST
+- Processed using the **exact same preprocessing pipeline** as training data
+
+This ensures consistency between training and real-world inference.
+
+---
+
+## 📁 Repository Structure
+
+<p align="center">
+  <img src="image/structure.png" width="600">
+</p>
+
+
 
 ---
 
